@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Creditos</string>
+    <string name="title_activity_main">Creditos</string>
+    <string name="package_name">com.creditos.app</string>
+    <string name="custom_url_scheme">com.creditos.app</string>
+</resources>
