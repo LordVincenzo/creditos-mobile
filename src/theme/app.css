@@ -1,0 +1,29 @@
+body { background: #f4f6fb; }
+.page-background { --background: #f4f6fb; }
+.auth-page { --background: linear-gradient(145deg, #eef2ff, #f8fafc 55%, #eef6ff); }
+.auth-shell { min-height: 100%; display: grid; place-items: center; padding: 24px; }
+.auth-card { width: min(100%, 430px); border-radius: 20px; box-shadow: 0 18px 48px rgba(15, 23, 42, 0.12); }
+.content-shell { width: min(100%, 900px); margin: 0 auto; padding: 20px 16px 96px; }
+.content-shell.wide { width: min(100%, 1200px); }
+.field-item { --background: transparent; --padding-start: 0; --inner-padding-end: 0; margin-bottom: 6px; }
+.select-item { --background: #fff; border: 1px solid #d8deea; border-radius: 8px; margin: 6px 0 12px; }
+.form-grid, .filters-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; }
+.filters-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.primary-action { margin-top: 18px; }
+.actions-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+.form-message, .field-error { margin: 4px 4px 10px; font-size: 0.86rem; }
+.helper-copy, .muted-copy { color: #64748b; font-size: 0.9rem; margin: 4px 2px 12px; }
+.loading-shell { min-height: 100%; display: grid; place-items: center; }
+.credits-table-wrapper { overflow-x: auto; border: 1px solid #e2e8f0; border-radius: 12px; }
+.credits-table { width: 100%; min-width: 880px; border-collapse: collapse; background: #fff; }
+.credits-table th, .credits-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #edf1f7; white-space: nowrap; }
+.credits-table th { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: #475569; background: #f8fafc; }
+.credits-table tbody tr:last-child td { border-bottom: 0; }
+.empty-state { padding: 28px 16px; text-align: center; color: #64748b; border: 1px dashed #cbd5e1; border-radius: 12px; }
+.pagination-row { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 16px; color: #475569; }
+ion-card { border-radius: 16px; box-shadow: 0 8px 28px rgba(15, 23, 42, 0.07); }
+@media (max-width: 760px) {
+  .form-grid, .filters-grid { grid-template-columns: 1fr; }
+  .content-shell { padding-inline: 10px; }
+  .pagination-row { gap: 4px; font-size: 0.86rem; }
+}
